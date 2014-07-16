@@ -49,7 +49,8 @@ public class ModGuiConfig extends GuiConfig
     {
       ConfigElement generalConfigs = new ConfigElement(ConfigReference.getInstance().getCategory(Configuration.CATEGORY_GENERAL));
       ConfigElement blockConfigs = new ConfigElement(ConfigReference.getInstance().getCategory(ConfigReference.CATEGORY_BLOCKIDS));
-      
+
+
       configElements.addAll(generalConfigs.getChildElements());
       configElements.addAll(blockConfigs.getChildElements());
     }
