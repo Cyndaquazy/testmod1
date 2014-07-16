@@ -43,7 +43,7 @@ public class ModGuiConfig extends GuiConfig
    */
   private static List<IConfigElement> getConfigElements()
   {
-    ArrayList<IConfigElement> configElements = new ArrayList<IConfigElement>();
+    List<IConfigElement> configElements = new ArrayList<IConfigElement>();
     
     if (ConfigReference.getInstance().isLoaded())
     {

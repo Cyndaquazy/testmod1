@@ -96,6 +96,7 @@ hs_err_pid*
 eclipse/
 gradle/
 .gradle/
+run/
 CREDITS-fml.txt
 forge-1.7.10-10.13.0.1180-changelog.txt
 gradlew
