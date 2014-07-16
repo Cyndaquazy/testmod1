@@ -84,3 +84,23 @@ com_crashlytics_export_strings.xml
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+####
+# testmod1-specific Files
+#
+# The files ignored here are the ones that gradle creates that are not unique to our mod.
+#
+# This includes the gradlew binaries and configurations, MinecraftForge text files, etc.
+####
+
+eclipse/
+gradle/
+.gradle/
+CREDITS-fml.txt
+forge-1.7.10-10.13.0.1180-changelog.txt
+gradlew
+gradlew.bat
+LICENSE-fml.txt
+MinecraftForge-Credits.txt
+MinecraftForge-License.txt
+README.txt
