@@ -1,0 +1,16 @@
+#
+# [Block Names]
+#
+tile.testmod:goldFurnace.name=Gold Furnace
+tile.testmod:ironFurnace.name=Iron Furnace
+
+# 
+# [Item Names]
+#
+item.testmod:goldPlating.name=Gold Plating
+item.testmod:ironPlating.name=Iron Plating
+
+#
+# [Misc]
+#
+itemGroup.testModTab=Cyndaquazy's Test Mod

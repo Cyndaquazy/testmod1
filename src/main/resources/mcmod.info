@@ -1,0 +1,21 @@
+[
+  {
+    "modid": "testmod",
+    "name": "Test Mod",
+    "description": "A test mod created by following Pahimar's LetsModReboot series on YouTube.",
+    "version": "indev",
+    "mcversion": "1.7.10",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Cyndaquazy"
+    ],
+    "credits": "Pahimar and his LetsModReboot series!",
+    "logoFile": "",
+    "screenshots": [
+    ],
+    "parent": "",
+    "dependencies": [
+    ]
+  }
+]
