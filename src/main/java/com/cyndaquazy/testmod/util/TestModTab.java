@@ -17,7 +17,7 @@ public class TestModTab extends CreativeTabs
 
   private TestModTab()
   {
-    super("testModTab");
+    super("testmod.general");
   }
 
   /**
@@ -37,15 +37,5 @@ public class TestModTab extends CreativeTabs
   public Item getTabIconItem()
   {
     return ModItems.ironPlating;
-  }
-
-  /**
-   * Hard-codes the name of the tab, instead of relying on localization.
-   * @return The name of this creative tab.
-   */
-  @Override
-  public String getTranslatedTabLabel()
-  {
-    return "Cyndaquazy's Test Mod";
   }
 }
