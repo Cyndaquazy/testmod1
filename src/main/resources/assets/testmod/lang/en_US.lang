@@ -9,3 +9,8 @@ tile.testmod:ironFurnace.name=Iron Furnace
 #
 item.testmod:goldPlating.name=Gold Plating
 item.testmod:ironPlating.name=Iron Plating
+
+#
+# [Misc]
+#
+itemGroup.testmod.general=Cyndaquay's Test Mod
