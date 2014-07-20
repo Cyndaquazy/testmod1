@@ -12,5 +12,7 @@ public class Names
   {
     public static final String IRON_PLATING = "ironPlating";
     public static final String GOLD_PLATING = "goldPlating";
+    public static final String COAL_CHUNK = "coalChunk";
+    public static final String COAL_BITS = "coalBits";
   }
 }

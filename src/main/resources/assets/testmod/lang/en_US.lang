@@ -9,6 +9,8 @@ tile.testmod:ironFurnace.name=Iron Furnace
 #
 item.testmod:goldPlating.name=Gold Plating
 item.testmod:ironPlating.name=Iron Plating
+item.testmod:coalChunk.name=Coal Chunk
+item.testmod:coalBits.name=Coal Bits
 
 #
 # [Misc]
