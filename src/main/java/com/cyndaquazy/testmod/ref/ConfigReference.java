@@ -8,9 +8,6 @@ import net.minecraftforge.common.config.Configuration;
 
 import com.cyndaquazy.testmod.util.LogHelper;
 
-import cpw.mods.fml.client.event.ConfigChangedEvent;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-
 /**
  * This reference class provides and updates configuration information loaded
  * from the mod's configuration file.
@@ -66,7 +63,7 @@ public class ConfigReference
   
   /**
    * Check whether or not the configuration was loaded.
-   * @return
+   * @return Whether or not the configuration was loaded.
    */
   public boolean isLoaded()
   {

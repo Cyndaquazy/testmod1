@@ -43,16 +43,32 @@ public class ModGuiConfig extends GuiConfig
    */
   private static List<IConfigElement> getConfigElements()
   {
+
     List<IConfigElement> configElements = new ArrayList<IConfigElement>();
-    
+
     if (ConfigReference.getInstance().isLoaded())
     {
-      ConfigElement generalConfigs = new ConfigElement(ConfigReference.getInstance().getCategory(Configuration.CATEGORY_GENERAL));
-      ConfigElement blockConfigs = new ConfigElement(ConfigReference.getInstance().getCategory(ConfigReference.CATEGORY_BLOCKIDS));
 
+      IConfigElement generalConfigs = new ConfigElement(ConfigReference.getInstance().getCategory(Configuration.CATEGORY_GENERAL));
+      IConfigElement blockConfigs = new ConfigElement(ConfigReference.getInstance().getCategory(ConfigReference.CATEGORY_BLOCKIDS));
 
-      configElements.addAll(generalConfigs.getChildElements());
-      configElements.addAll(blockConfigs.getChildElements());
+      while (generalConfigs.getChildElements().iterator().hasNext())
+      {
+        Object config = generalConfigs.getChildElements().iterator().next();
+        if (config instanceof IConfigElement)
+        {
+          configElements.add((IConfigElement)config);
+        }
+      }
+
+      while (blockConfigs.getChildElements().iterator().hasNext())
+      {
+        Object config = blockConfigs.getChildElements().iterator().next();
+        if (config instanceof IConfigElement)
+        {
+          configElements.add((IConfigElement)config);
+        }
+      }
     }
     else
     {

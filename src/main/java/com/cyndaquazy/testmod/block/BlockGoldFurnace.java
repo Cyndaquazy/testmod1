@@ -1,11 +1,6 @@
 package com.cyndaquazy.testmod.block;
 
-import net.minecraft.client.renderer.texture.IIconRegister;
-
 import com.cyndaquazy.testmod.ref.Names;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 
 
 public class BlockGoldFurnace extends BlockTestMod

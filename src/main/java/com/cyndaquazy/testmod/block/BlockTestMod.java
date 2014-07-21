@@ -5,7 +5,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 
 import com.cyndaquazy.testmod.ref.Textures;
-import com.cyndaquazy.testmod.util.LogHelper;
 import com.cyndaquazy.testmod.util.TestModTab;
 
 import cpw.mods.fml.relauncher.Side;
