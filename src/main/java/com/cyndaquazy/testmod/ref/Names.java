@@ -15,4 +15,10 @@ public class Names
     public static final String COAL_CHUNK = "coalChunk";
     public static final String COAL_BITS = "coalBits";
   }
+  
+  public static final class Entities
+  {
+    public static final String IRON_FURNACE = "ironFurnace";
+    public static final String GOLD_FURNACE = "goldFurnace";
+  }
 }

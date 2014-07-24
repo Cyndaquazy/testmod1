@@ -15,13 +15,9 @@ public class ModItems
   
   public static void registerItems()
   {
-    LogHelper.info("Adding gold plating...");
     GameRegistry.registerItem(goldPlating, Names.Items.GOLD_PLATING);
-    LogHelper.info("Adding iron plating...");
     GameRegistry.registerItem(ironPlating, Names.Items.IRON_PLATING);
-    LogHelper.info("Adding coal chunk...");
     GameRegistry.registerItem(coalChunk, Names.Items.COAL_CHUNK);
-    LogHelper.info("Adding coal bits...");
     GameRegistry.registerItem(coalBits, Names.Items.COAL_BITS);
   }
 }

@@ -2,7 +2,9 @@ package com.cyndaquazy.testmod;
 
 import com.cyndaquazy.testmod.handler.EventHandler;
 import com.cyndaquazy.testmod.init.ModBlocks;
+import com.cyndaquazy.testmod.init.ModEntities;
 import com.cyndaquazy.testmod.init.ModItems;
+import com.cyndaquazy.testmod.init.Recipes;
 import com.cyndaquazy.testmod.proxy.IProxy;
 import com.cyndaquazy.testmod.ref.ConfigReference;
 import com.cyndaquazy.testmod.ref.GlobalConstants;
@@ -83,6 +85,12 @@ public class TestMod
   public void init(FMLInitializationEvent initEvt)
   {
     LogHelper.info("Constructing facilities...");
+    
+    // Register our recipes.
+    Recipes.initRecipes();
+    
+    // Register our entities.
+    ModEntities.initEntities();
     
   }
   

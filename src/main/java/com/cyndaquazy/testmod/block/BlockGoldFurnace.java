@@ -9,6 +9,8 @@ public class BlockGoldFurnace extends BlockTestMod
   {
     super();
     this.setBlockName(Names.Blocks.GOLD_FURNACE);
+    this.setHardness(4.0F);
+    this.setHarvestLevel("pickaxe", 1);
   }
   
   /*
